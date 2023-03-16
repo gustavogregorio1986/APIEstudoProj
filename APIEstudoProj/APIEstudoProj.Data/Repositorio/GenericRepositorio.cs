@@ -14,7 +14,7 @@ namespace APIEstudoProj.Data.Repositorio
     {
         private readonly APIEstudoProjContexto _db;
 
-        public GenericRepositori()
+        public GenericRepositorio()
         {
             var options = new DbContextOptionsBuilder<APIEstudoProjContexto>().UseSqlServer("ConnectionStrings").Options;
             var contexto = new APIEstudoProjContexto(options);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace APIEstudoProj.Data.Repositorio.Interface
 {
-    internal interface IEnderecoRepositorio : IGenericRepositorio<Avaliacao>
+    public interface IEnderecoRepositorio : IGenericRepositorio<Endereco>
     {
     }
 }
