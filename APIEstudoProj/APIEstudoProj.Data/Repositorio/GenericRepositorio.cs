@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace APIEstudoProj.Data.Repositorio
 {
-    public class GenericRepositori<T> : IGenericRepositorio<T>, IDisposable where T : class
+    public class GenericRepositorio<T> : IGenericRepositorio<T>, IDisposable where T : class
     {
         private readonly APIEstudoProjContexto _db;
 
