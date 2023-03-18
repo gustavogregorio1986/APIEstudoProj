@@ -27,5 +27,19 @@ namespace APIEstudoProj.Dominio.Dominio
 
         [ForeignKey("Aluno")]
         public int Id_Aluno { get; set; }
+
+        public Endereco()
+        {
+
+        }
+
+        public Endereco(int id, string logradouro, string bairro, string cidade, string cep)
+        {
+            this.Id = id;
+            this.Logradouro = logradouro;
+            this.Bairro = bairro;
+            this.Cidade = cidade;
+            this.Cep = cep;
+        }
     }
 }

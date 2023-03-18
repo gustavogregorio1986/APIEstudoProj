@@ -2,7 +2,7 @@
 
 namespace APIEstudoProj.Data.Migrations
 {
-    public partial class CriarTabelas : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

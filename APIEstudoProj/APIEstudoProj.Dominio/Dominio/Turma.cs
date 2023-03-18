@@ -21,5 +21,16 @@ namespace APIEstudoProj.Dominio.Dominio
 
         [ForeignKey("Aluno")]
         public int Id_ALuno { get; set; }
+
+        public Turma()
+        {
+
+        }
+
+        public Turma(int id, string nomreTurma)
+        {
+            this.Id = id;
+            this.NomreTurma = nomreTurma;
+        }
     }
 }

@@ -21,5 +21,16 @@ namespace APIEstudoProj.Dominio.Dominio
 
         [ForeignKey("Aluno")]
         public int Id_Aluno { get; set; }
+
+        public Nivel()
+        {
+
+        }
+
+        public Nivel(int id, string serie)
+        {
+            this.Id = id;
+            this.Serie = serie;
+        }
     }
 }

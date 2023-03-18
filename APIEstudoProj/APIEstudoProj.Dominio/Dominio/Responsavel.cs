@@ -27,5 +27,20 @@ namespace APIEstudoProj.Dominio.Dominio
 
         [ForeignKey("Aluno")]
         public int Id_ALuno { get; set; }
+
+        public Responsavel()
+        {
+
+        }
+
+        public Responsavel(int id, string nomeResponsavel, string emailReponsavel, string telefone, string cpf)
+        {
+            this.Id = id;
+            this.NomeResponsavel = nomeResponsavel;
+            this.EmailReponsavel = emailReponsavel;
+            this.Telefone = telefone;
+            this.Cpf = cpf;
+           
+        }
     }
 }

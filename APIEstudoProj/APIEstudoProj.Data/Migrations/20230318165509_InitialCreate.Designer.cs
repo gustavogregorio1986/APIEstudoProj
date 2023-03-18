@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APIEstudoProj.Data.Migrations
 {
     [DbContext(typeof(APIEstudoProjContexto))]
-    [Migration("20230316173201_CriarTabelas")]
-    partial class CriarTabelas
+    [Migration("20230318165509_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

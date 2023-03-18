@@ -23,5 +23,18 @@ namespace APIEstudoProj.Dominio.Dominio
 
         [ForeignKey("Aluno")]
         public int Id_Aluno { get; set; }
+
+        public Avaliacao()
+        {
+
+        }
+
+        public Avaliacao(int id, double nota1, double nota2, double notaRecuperacao)
+        {
+            this.Id = id;
+            this.Nota1 = nota1;
+            this.Nota2 = nota2;
+            this.NotaRecuperacao = notaRecuperacao;
+        }
     }
 }

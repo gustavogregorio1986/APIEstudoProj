@@ -17,13 +17,14 @@ namespace APIEstudoProj.Data.Repositorio
         public GenericRepositorio()
         {
             var options = new DbContextOptionsBuilder<APIEstudoProjContexto>().UseSqlServer("ConnectionStrings").Options;
-            var contexto = new APIEstudoProjContexto(options);
+            _db = new APIEstudoProjContexto(options);
         }
 
         public void Adicionar(T entidade)
         {
             _db.Set<T>().Add(entidade);
             Commit();
+
         }
 
         public void Atualizar(T entidade)
@@ -39,7 +40,7 @@ namespace APIEstudoProj.Data.Repositorio
 
         public void Commit()
         {
-            _db.SaveChanges();
+                _db.SaveChanges();
         }
 
         public void Deletar(int i)
