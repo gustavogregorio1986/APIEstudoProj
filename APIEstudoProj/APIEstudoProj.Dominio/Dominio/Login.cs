@@ -26,9 +26,9 @@ namespace APIEstudoProj.Dominio.Dominio
 
         }
 
-        public Login(int id, string usuario, string senha, string perfil)
+        public Login(int Id, string usuario, string senha, string perfil)
         {
-            this.Id = id;
+            this.Id = Id;
             this.Usuario = usuario;
             this.Senha = senha;
             this.Perfil = perfil;

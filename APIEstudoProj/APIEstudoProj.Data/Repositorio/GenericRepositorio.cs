@@ -23,15 +23,9 @@ namespace APIEstudoProj.Data.Repositorio
 
         public void Adicionar(T entidade)
         {
-            try
-            {
-                _db.Set<T>().Add(entidade);
-                Commit();
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            _db.Set<T>().Add(entidade);
+            Commit();
+           
         }
 
         public void Atualizar(T entidade)
