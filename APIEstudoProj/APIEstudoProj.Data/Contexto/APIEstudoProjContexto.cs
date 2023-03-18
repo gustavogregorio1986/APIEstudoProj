@@ -1,5 +1,6 @@
 ﻿using APIEstudoProj.Dominio.Dominio;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Protocols;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,5 +34,11 @@ namespace APIEstudoProj.Data.Contexto
         public DbSet<Sala> Salas { get; set; }
 
         public DbSet<Turma> Turmas { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-5BK4EQM");
+        }
+
     }
 }

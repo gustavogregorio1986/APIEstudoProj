@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rKCDpq3mVfunkk0cbfIwbA/JztOHGxwPrIeDivX2iCgFHRON4Bt/gZyI6jwqzAVx2dM6dqM4torJdL4WpQaVwg==",
+  "dgSpecHash": "rqq5FpeWIjfx65apU+RyrqBthJQgw3hprCLmteADxAjTFciKtZeA+DRjxL+iXTb77ns1dA4R/sIoe0KCB0cKvQ==",
   "success": true,
   "projectFilePath": "C:\\APIEstudoProj\\APIEstudoProj\\APIEstudoProj\\APIEstudoProj.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\gusta\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\nlog\\5.1.2\\nlog.5.1.2.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

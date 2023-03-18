@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VFi50GQsphj94w1S6+l8KmYGGgC+gp/wT8lv/It9Ynk0ktHuKSKx+zSi2ovCDdk4YJgJXdfllOZwuUX2aHq52A==",
+  "dgSpecHash": "lWaxCSYTuMl0n1tN1umA8YSLcuEBMcomZBCc1vu5yPcPR89SNTVsqKbCZITZNG2fhgaDgrKDrc5zbpE3i10K+Q==",
   "success": true,
   "projectFilePath": "C:\\APIEstudoProj\\APIEstudoProj\\APIEstudoProj.Data\\APIEstudoProj.Data.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Users\\gusta\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\nlog\\5.1.2\\nlog.5.1.2.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
