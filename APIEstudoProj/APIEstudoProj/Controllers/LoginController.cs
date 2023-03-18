@@ -3,6 +3,7 @@ using APIEstudoProj.Models;
 using APIEstudoProj.Servico.Servico;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace APIEstudoProj.Controllers
 {
@@ -20,11 +21,22 @@ namespace APIEstudoProj.Controllers
         [HttpPost]
         public JsonResult CadatsrLogin(Login login)
         {
-            LoginView loginView = new LoginView();
-            loginView.Usuario = login.Usuario;
-            loginView.Senha = login.Senha;
-            loginView.Perfil = login.Perfil;
-            loginServico.InserirLogin(login);
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    LoginView loginView = new LoginView();
+                    loginView.Usuario = login.Usuario;
+                    loginView.Senha = login.Senha;
+                    loginView.Perfil = login.Perfil;
+                    loginServico.InserirLogin(login);
+                }
+            }
+            catch(DataException)
+            {
+
+            }
+   
             return new JsonResult(login); 
         }
     }

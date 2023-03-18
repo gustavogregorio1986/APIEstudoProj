@@ -3,6 +3,7 @@ using APIEstudoProj.Data.Repositorio.Interface;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -22,9 +23,15 @@ namespace APIEstudoProj.Data.Repositorio
 
         public void Adicionar(T entidade)
         {
-            _db.Set<T>().Add(entidade);
-            Commit();
-
+            try
+            {
+                _db.Set<T>().Add(entidade);
+                Commit();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         public void Atualizar(T entidade)
