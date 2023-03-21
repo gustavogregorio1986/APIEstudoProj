@@ -36,5 +36,10 @@ namespace APIEstudoProj.Dominio.Dominio
             this.Nota2 = nota2;
             this.NotaRecuperacao = notaRecuperacao;
         }
+
+        public override string ToString()
+        {
+            return Id + "," + Nota1 + "," + Nota2 + "," + NotaRecuperacao;
+        }
     }
 }

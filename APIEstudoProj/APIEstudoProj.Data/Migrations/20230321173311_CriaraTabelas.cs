@@ -159,7 +159,7 @@ namespace APIEstudoProj.Data.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NomreTurma = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    NomeTurma = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Id_ALuno = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

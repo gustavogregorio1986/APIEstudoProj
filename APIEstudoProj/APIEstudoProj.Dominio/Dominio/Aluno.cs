@@ -42,5 +42,10 @@ namespace APIEstudoProj.Dominio.Dominio
             this.Sexo = sexo;
             this.Cpf = cpf;
         }
+
+        public override string ToString()
+        {
+            return Id + "," + NomeAluno + "," + EmailAluno + "," + Sexo + "," + Cpf;
+        }
     }
 }

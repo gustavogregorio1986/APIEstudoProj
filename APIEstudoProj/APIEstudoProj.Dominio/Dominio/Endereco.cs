@@ -41,5 +41,10 @@ namespace APIEstudoProj.Dominio.Dominio
             this.Cidade = cidade;
             this.Cep = cep;
         }
+
+        public override string ToString()
+        {
+            return Id + "," + Logradouro + "," + Bairro + "," + Cidade + "," + Cep;
+        }
     }
 }

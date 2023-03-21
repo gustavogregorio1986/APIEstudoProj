@@ -15,7 +15,7 @@ namespace APIEstudoProj.Dominio.Dominio
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        public string NomreTurma { get; set; }
+        public string NomeTurma { get; set; }
 
         public Aluno Aluno { get; set; }
 
@@ -27,10 +27,15 @@ namespace APIEstudoProj.Dominio.Dominio
 
         }
 
-        public Turma(int id, string nomreTurma)
+        public Turma(int id, string nomeTurma)
         {
             this.Id = id;
-            this.NomreTurma = nomreTurma;
+            this.NomeTurma = nomeTurma;
+        }
+
+        public override string ToString()
+        {
+            return Id + "," + NomeTurma;
         }
     }
 }

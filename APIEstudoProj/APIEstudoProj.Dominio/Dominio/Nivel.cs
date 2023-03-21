@@ -32,5 +32,10 @@ namespace APIEstudoProj.Dominio.Dominio
             this.Id = id;
             this.Serie = serie;
         }
+
+        public override string ToString()
+        {
+            return Id + "," + Serie;
+        }
     }
 }

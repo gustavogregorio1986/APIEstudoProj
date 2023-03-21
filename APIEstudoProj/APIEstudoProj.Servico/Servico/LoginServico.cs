@@ -20,6 +20,7 @@ namespace APIEstudoProj.Servico.Servico
         public void InserirLogin(Login login)
         {
             loginRepositorio.Adicionar(login);
+            
         }
 
         public List<Login> ListarLogin()

@@ -225,7 +225,7 @@ namespace APIEstudoProj.Data.Migrations
                     b.Property<int>("Id_ALuno")
                         .HasColumnType("int");
 
-                    b.Property<string>("NomreTurma")
+                    b.Property<string>("NomeTurma")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

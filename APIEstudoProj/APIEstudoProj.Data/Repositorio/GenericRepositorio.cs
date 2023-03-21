@@ -41,7 +41,7 @@ namespace APIEstudoProj.Data.Repositorio
 
         public void Commit()
         {
-                _db.SaveChanges();
+            _db.SaveChanges();
         }
 
         public void Deletar(int i)

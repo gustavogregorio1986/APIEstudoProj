@@ -35,10 +35,7 @@ namespace APIEstudoProj.Data.Contexto
 
         public DbSet<Turma> Turmas { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-5BK4EQM");
-        }
+        
 
     }
 }

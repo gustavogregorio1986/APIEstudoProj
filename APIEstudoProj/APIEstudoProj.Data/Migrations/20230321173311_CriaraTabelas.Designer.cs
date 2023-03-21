@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APIEstudoProj.Data.Migrations
 {
     [DbContext(typeof(APIEstudoProjContexto))]
-    [Migration("20230318173702_CriaraTabelas")]
+    [Migration("20230321173311_CriaraTabelas")]
     partial class CriaraTabelas
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -227,7 +227,7 @@ namespace APIEstudoProj.Data.Migrations
                     b.Property<int>("Id_ALuno")
                         .HasColumnType("int");
 
-                    b.Property<string>("NomreTurma")
+                    b.Property<string>("NomeTurma")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

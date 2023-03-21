@@ -26,12 +26,17 @@ namespace APIEstudoProj.Dominio.Dominio
 
         }
 
-        public Login(int Id, string usuario, string senha, string perfil)
+        public Login(int Id, string usuario, string Senha, string Perfil)
         {
             this.Id = Id;
             this.Usuario = usuario;
-            this.Senha = senha;
-            this.Perfil = perfil;
+            this.Senha = Senha;
+            this.Perfil = Perfil;
+        }
+
+        public override string ToString()
+        {
+            return Id + "," + Usuario + "," + Senha + "," + Perfil;
         }
     }
 }

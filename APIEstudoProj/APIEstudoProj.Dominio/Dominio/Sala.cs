@@ -32,5 +32,10 @@ namespace APIEstudoProj.Dominio.Dominio
             this.Id = id;
             this.NumeroSala = numeroSala;
         }
+
+        public override string ToString()
+        {
+            return Id + "," + NumeroSala;
+        }
     }
 }

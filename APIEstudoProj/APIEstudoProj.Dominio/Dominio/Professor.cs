@@ -35,5 +35,10 @@ namespace APIEstudoProj.Dominio.Dominio
             this.NomeProfessor = nomeProfessor;
             this.EmailProfessor = emailProfessor;
         }
+
+        public override string ToString()
+        {
+            return Id + "," + NomeProfessor + "," + EmailProfessor;
+        }
     }
 }
